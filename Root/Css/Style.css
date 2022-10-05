@@ -1,0 +1,94 @@
+:root {
+    --colorPrimario: #6c63ff;
+    --colorSecundario: #ffff;
+}
+
+html, body { 
+ height: 100%;
+ overflow: hidden
+}
+
+h1 {
+    color: var(--colorPrimario);
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 6rem;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+
+}
+
+.name {
+    margin-bottom: 2rem;
+}
+
+.email {
+    margin-bottom: 2rem;
+}
+
+.password {
+    margin-bottom: 2rem;
+}
+
+.confirm {
+    margin-bottom: 2rem;
+}
+
+.name_ {
+    border: 1px solid #C4C4C4;
+    border-radius: 60px;
+    
+}
+
+.email_ {
+    border: 1px solid #C4C4C4;
+    border-radius: 60px;
+}
+
+.password_ {
+    border: 1px solid #C4C4C4;
+    border-radius: 60px;
+}
+
+.confirm_ {
+    border: 1px solid #C4C4C4;
+    border-radius: 60px;
+}
+
+button {
+    background-color: var(--colorPrimario);
+    height: 48px;
+    width: 174px;
+    left: 183px;
+    top: 554px;
+    border-radius: 60px;
+    border-color: var(--colorSecundario);
+    color: var(--colorSecundario);
+    cursor: pointer;
+    cursor: hand;
+
+}
+
+
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#contenedor>div {
+    width: 50%;
+}
+
+.button {
+    text-align: center;
+}
+
+.div_2 {
+    
+}
+
